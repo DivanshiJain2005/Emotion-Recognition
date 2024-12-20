@@ -2,7 +2,6 @@
 
 This project focuses on recognizing emotions from text data using machine learning. The model classifies sentences into categories like `anger`, `hate`, `neutral`, and more, depending on the dataset's labels.
 
----
 
 ## Features
 
@@ -11,7 +10,6 @@ This project focuses on recognizing emotions from text data using machine learni
 - **Customizable**: Easy to modify for additional labels or datasets.
 - **Real-Time Prediction**: Test the model with custom sentences.
 - **High Accuracy**: Achieved an accuracy of 99.7% on the test dataset.
----
 
 ## Prerequisites
 
@@ -30,7 +28,6 @@ Install the required libraries using the following command:
 pip install pandas numpy tensorflow scikit-learn
 ```
 
----
 
 ## Dataset
 
@@ -46,7 +43,6 @@ The dataset must be a CSV file with the following structure:
 - **`text`**: The sentence or phrase for classification.
 - **`Emotion`**: The corresponding emotion label.
 
----
 
 ## How to Run
 
@@ -86,15 +82,12 @@ sentence = "I am so excited about the upcoming vacation!"
 # Function to preprocess and predict is provided in the main script.
 ```
 
----
-
 
 ## Example Usage
 
 1. Input: `I am feeling so happy today!`
 2. Predicted Emotion: `joy`
 
----
 
 ## Future Enhancements
 
@@ -102,13 +95,11 @@ sentence = "I am so excited about the upcoming vacation!"
 - Integrate pre-trained models like BERT for better accuracy.
 - Deploy the model as a REST API for broader usability.
 
----
 
 ## Contribution
 
 Feel free to fork the repository, make changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
----
 
 ## License
 
